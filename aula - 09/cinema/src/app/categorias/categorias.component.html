@@ -1,0 +1,12 @@
+<div>
+  <h1>Categorias</h1>
+</div>
+<main role="main" class="flex-shrink-0">
+  <div class="container">
+    <div *ngFor="let categoria of categorias" class="card-deck mb-3 text-center">
+      <cin-categoria [categoria]="categoria"></cin-categoria>
+    </div>
+  </div>
+</main>
+
+

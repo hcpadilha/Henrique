@@ -10,6 +10,8 @@ import { AcaoComponent } from './acao/acao.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
+import { CategoriasComponent } from './categorias/categorias.component';
+import { CategoriaComponent } from './categorias/categoria/categoria.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ROUTES } from './app.routes';
     RodapeComponent,
     HomeComponent,
     AcaoComponent,
-    SobreComponent
+    SobreComponent,
+    CategoriasComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
